@@ -24,7 +24,7 @@ import sys
 import os
 import glob
 import re
-import cv2
+
 from  PIL import Image, ImageOps
 # Keras
 from keras.applications.imagenet_utils import preprocess_input, decode_predictions
