@@ -1,19 +1,16 @@
 from flask.helpers import send_file
 from jinja2 import Template
-from sklearn.metrics import accuracy_score
-from sklearn.linear_model import LinearRegression
-from sklearn.model_selection import train_test_split
+t
 import matplotlib.pyplot as plt
 from os import path
 import re
 from flask import Flask, render_template, request
 from werkzeug.utils import secure_filename
 import os
-from sklearn.preprocessing import LabelEncoder
-from sklearn.impute import SimpleImputer
+
+
 # Feature Scaling
-from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import confusion_matrix
+
 import pandas as pd
 import numpy as np
 import matplotlib
